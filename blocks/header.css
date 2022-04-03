@@ -20,9 +20,9 @@
   width: 568px;
   height: 568px;
   z-index: 0;
-  transform: rotate(-15deg);
-  animation: rotation linear 20s infinite;
 }
+
+
 
 .header__sub_tatle
 {
@@ -85,7 +85,7 @@
   position: absolute;
   background-image: url("../images/logo_place_header.svg");
   border: purple 1px solid;
-  width: 183px;
+  width: 230px;
   height: 32px;
   left: 64px;
   top: 30px;
