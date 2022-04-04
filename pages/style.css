@@ -1,3 +1,4 @@
+/*Стили для блока header*/
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__link/header__link.css");
 @import url("../blocks/header/__sub/header__sub_title.css");
@@ -5,6 +6,21 @@
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__main/header__main-illustration.css");
 @import url("../blocks/header/__square/header__square-pic.css");
+
+
+/*Стили для блока footer*/
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__coloumn/footer__coloumn.css");
+@import url("../blocks/footer/__coloumn/footer__coloumn-heading.css");
+@import url("../blocks/footer/__coloumn/_content/_copyright/footer__column_content_copyright.css");
+@import url("../blocks/footer/__coloumn/_content/_social/footer__column_content_social.css");
+@import url("../blocks/footer/__coloumns/footer__column-links.css");
+@import url("../blocks/footer/__coloumns/footer__columns.css");
+@import url("../blocks/footer/__coloumns/_info/footer__coloumns_info.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__list/footer__list-item.css");
+@import url("../blocks/footer/__social/footer__social-icon.css");
+
 
 
 
@@ -312,35 +328,6 @@ html
   background-image: url("../images/logo/resources-polka.svg");
 }
 
-.footer
-{
-  font-size: 24px;
-  background-color: #1F1F1F;
-  min-height: 14.5em;
-  color: #f2f2f2;
-  box-sizing: border-box;
-  padding: 2.5em 0 1.3em;
-}
-
-.footer__columns
-{
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
-}
-
-.footer__column
-{
-  min-height: 10.5em;
-}
-
-.footer__column_content_copyright
-{
-  flex-basis: 29em;
-  position: relative;
-}
-
 .logo_footer
 {
   width: 10em;
@@ -349,67 +336,3 @@ html
   background-repeat: no-repeat;
 }
 
-
-.footer_author
-{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  line-height: 25px;
-  font-size: 18px;
-  color: #f2f2f2;
-}
-
-.footer__columns_info
-{
-  display: flex;
-}
-
-.footer__column-links
-{
-  padding: 0;
-  line-height: 18px;
-  font-size: 18px;
-  cursor: pointer;
-}
-.footer__list-item
-{
-  display: block;
-}
-
-.footer__link
-{
-  padding-top: 20px;
-  padding-bottom: 16px;
-  color: #f2f2f2;
-  text-decoration: none;
-  line-height: 16px;
-  font-size: 16px;
-  transition: opacity .2s linear;
-  cursor: pointer;
-}
-
-.footer__column-heading {
-
-  font-size: 18px;
-  color: #f2f2f2;
-  font-weight: bold;
-}
-
-.footer__column_content_info
-{
-  margin-right: 1em;
-  font-size: 18px;
-}
-
-.footer__social-icon
-{
-  margin-right: .4em;
-}
-
-.footer__column_content_social
-{
-  line-height: 18px;
-  font-size: 18px;
-  margin-left: 100px;
-}
