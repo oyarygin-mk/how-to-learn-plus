@@ -6,6 +6,20 @@
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__main/header__main-illustration.css");
 @import url("../blocks/header/__square/header__square-pic.css");
+@import url("../blocks/logo/logo_place-header/logo_place-header.css");
+
+
+/*Стили для блока resources*/
+@import url("../blocks/content/section/section-subtitle/section-subtitle.css");
+@import url("../blocks/content/section/section-title/section-title.css");
+@import url("../blocks/content/resources/resources.css");
+@import url("../blocks/content/resources/__logo/resources__logo-zone.css");
+@import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
+@import url("../blocks/content/resources/__logo/_n1/resources__logo_n1.css");
+@import url("../blocks/content/resources/__logo/_polka/resources__logo_polka.css");
+@import url("../blocks/content/resources/__logo/_strelka/resources__logo_strelka.css");
+@import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
+@import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
 
 
 /*Стили для блока footer*/
@@ -20,7 +34,8 @@
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__list/footer__list-item.css");
 @import url("../blocks/footer/__social/footer__social-icon.css");
-
+@import url("../blocks/logo/logo_footer/logo_footer.css");
+@import url("../blocks/logo/logo_place-header/logo_place-header.css");
 
 
 
@@ -111,25 +126,6 @@ html
   width: 80%;
   margin: auto 0;
   font-size: 24px;
-}
-
-.section-title
-{
-  text-align: center;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-}
-.section-subtitle
-{
-  padding-top: 20px;
-  text-align: center;
-  margin: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  border: purple 1px solid;
 }
 
 
@@ -286,53 +282,8 @@ html
   font-weight: normal;
 }
 
-.resources
-{
-  margin-top: 100px;
-}
 
-.resources__logo-zone
-{
-  width: 1100px;
-  display: flex;
-  margin: 80px auto 217px;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-}
 
-.resources_logo
-{
-  width: 270px;
-  height: 38px;
-  background: center no-repeat;
-}
 
-.resources__logo_academy
-{
-  background-image: url("../images/logo/resources-arzamas.svg");
-}
 
-.resources__logo_n1
-{
-  background-image: url("../images/logo/resources-n1.svg");
-}
-
-.resources__logo_strelka
-{
-  background-image: url("../images/logo/resources-strelka.svg");
-}
-
-.resources__logo_polka
-{
-  background-image: url("../images/logo/resources-polka.svg");
-}
-
-.logo_footer
-{
-  width: 10em;
-  height: 1.45em;
-  background-image: url("../images/logo_place_footer.svg");
-  background-repeat: no-repeat;
-}
 
