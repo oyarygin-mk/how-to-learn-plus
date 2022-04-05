@@ -1,0 +1,9 @@
+.two_coloms
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: blue 1px solid;
+}

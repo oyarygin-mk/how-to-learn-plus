@@ -8,6 +8,50 @@
 @import url("../blocks/header/__square/header__square-pic.css");
 @import url("../blocks/logo/logo_place-header/logo_place-header.css");
 
+/*Стили для блока description*/
+@import url("../blocks/content/description/description.css");
+@import url("../blocks/content/section/section-subtitle/section-subtitle.css");
+@import url("../blocks/content/section/section-title/section-title.css");
+@import url("../blocks/content/description/two_coloms/__brief/two-colums__brief.css");
+@import url("../blocks/content/description/two_coloms/two_coloms.css");
+@import url("../blocks/content/description/two_coloms/__main-text/two-columns__main-text.css");
+@import url("../blocks/content/description/two_coloms/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/content/description/two_coloms/__span-accent/two-colums__span-accent.css");
+
+/*Стили для блока digits*/
+@import url("../blocks/content/digits/digits.css");
+@import url("../blocks/content/section/section-subtitle/section-subtitle.css");
+@import url("../blocks/content/section/section-title/section-title.css");
+@import url("../blocks/content/digits/table/table.css");
+@import url("../blocks/content/digits/table/__cell/table__cell.css");
+@import url("../blocks/content/digits/table/__cell/_theme/table__cell_theme_dark.css");
+@import url("../blocks/content/digits/table/__heading/table__heading.css");
+@import url("../blocks/content/digits/table/__text/table__text.css");
+
+
+/*Стили для блока technics*/
+@import url("../blocks/content/section/section-subtitle/section-subtitle.css");
+@import url("../blocks/content/section/section-title/section-title.css");
+@import url("../blocks/content/technics/technics.css");
+@import url("../blocks/content/technics/cards/cards.css");
+@import url("../blocks/content/technics/cards/__description/cards__description.css");
+@import url("../blocks/content/technics/cards/__image/cards__image.css");
+@import url("../blocks/content/technics/cards/__image/_attention/cards__image_attention.css");
+@import url("../blocks/content/technics/cards/__item/cards__item.css");
+@import url("../blocks/content/technics/cards/__title/cards__title.css");
+
+/*Стили для блока kaufman*/
+@import url("../blocks/content/kaufman/kaufman.css");
+@import url("../blocks/content/section/section-subtitle/section-subtitle.css");
+@import url("../blocks/content/section/section-title/section-title.css");
+@import url("../blocks/content/digits/table/table.css");
+@import url("../blocks/content/digits/table/__cell/table__cell.css");
+@import url("../blocks/content/digits/table/__cell/_theme/table__cell_theme_dark.css");
+@import url("../blocks/content/digits/table/__heading/table__heading.css");
+@import url("../blocks/content/digits/table/__text/table__text.css");
+@import url("../blocks/content/digits/table/__text/_theme/table__text_them_dark.css");
+@import url("../blocks/content/digits/table/__heading/_theme/table__heading_theme_dark.css");
+@import url("../blocks/content/digits/table/__cell/_theme/table__cell_theme_dark.css");
 
 /*Стили для блока resources*/
 @import url("../blocks/content/section/section-subtitle/section-subtitle.css");
@@ -20,7 +64,6 @@
 @import url("../blocks/content/resources/__logo/_strelka/resources__logo_strelka.css");
 @import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
 @import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
-
 
 /*Стили для блока footer*/
 @import url("../blocks/footer/footer.css");
@@ -36,13 +79,6 @@
 @import url("../blocks/footer/__social/footer__social-icon.css");
 @import url("../blocks/logo/logo_footer/logo_footer.css");
 @import url("../blocks/logo/logo_place-header/logo_place-header.css");
-
-
-
-
-
-
-
 
 html
 {
@@ -62,225 +98,20 @@ html
 }
 
 
-
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-
-.description
-{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.two_coloms
-{
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  border: blue 1px solid;
-
-}
-
-.two-columns__main-text
-{
-  width: 80%;
-  max-width: 784px;
-}
-
-.two-columns__brief
-{
-  color: #2f80ed;
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: .3em 1em 0 0;
-}
-
-.two-columns__paragraph
-{
-  margin-top: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-
-}
-
-.two-columns__span-accent
-{
-  font-weight: 700;
-
-}
-
-.technics
-{
-  min-width: 784px;
-  width: 80%;
-  margin: auto 0;
-  font-size: 24px;
-}
-
-
-
 .class__item
 {
   width: 8em;
-
 }
 
 
 
-.cards__description {
-  margin: 16px 0 0;
-  line-height: 23px;
-  font-size: 23px;
-  font-weight: normal;
-  text-align: center;
-}
-
-.cards
-{
-  display: flex;
-  flex-wrap: wrap;
-  width: 920px;
-  margin: 0 auto;
-}
-
-.cards__title
-{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.cards__image_attention
-{
-}
-
-.cards__image
-{
-  display: block;
-  border-radius: 50%;
-  margin: auto;
-  width: 160px;
-  height: 160px;
-}
-
-.cards__item
-{
-  width: 240px;
-  margin: 60px 0px 50px 0px;
-}
-
-.cards__item:nth-of-type(3n+2)
-{
-
-  width: 240px;
-  margin: 60px 100px 40px 100px;
-}
 
 
-.cards__title
 
-{
-  line-height: 1.15;
-  font-size: 24px;
-  text-align: center;
-  font-weight: bold;
-  margin: 0 auto;
-}
 
-.cards__description
-{
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-}
 
-.digits
-{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 
-.table
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-  width: 1110px;
-  border: red 1px solid;
-  margin: 0 auto;
-}
 
-.table_cell
-{
-  width: 250px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  border: blue 1px solid;
-}
-
-.table__heading
-{
-  margin: 0;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 1.15;
-}
-
-.table__text
-{
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
-}
-
-.kaufman
-{
-  background-color: #1f1f1f;
-  margin: 90px auto auto 0;
-  width: 1600px;
-}
-
-.section-title_theme-dark
-{
-  color: #fff;
-  z-index: 1;
-  position: relative;
-}
-.section-subtitle_theme-dark
-{
-  color: #fff;
-  position: relative;
-  z-index: 1;
-}
-
-.table__heading_theme_dark
-{
-  color: #fff;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-.table__text_theme_dark{
-  color: #fff;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
 
 
 
