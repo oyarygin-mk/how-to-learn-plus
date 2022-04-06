@@ -1,10 +1,10 @@
 .header__square-pic {
-  background-color: #2f80ed;
-  position: absolute;
-  overflow: hidden;
-  top: 64px;
-  right: 0;
   width: 568px;
   height: 568px;
+  top: 64px;
+  right: 0;
   z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  background-color: #2f80ed;
 }

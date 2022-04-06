@@ -1,12 +1,12 @@
 .header__main-illustration
 {
+  display: flex;
   position: absolute;
   background-size: cover;
   border: darkgreen 2px solid;
   background-image: url("../../../images/header-image.png");
   width: 765px;
   height: 608px;
-  display: flex;
   z-index: 1;
   right: 0;
   bottom: 0;
