@@ -56,6 +56,16 @@
 
 /*Стили для блока khan*/
 @import url("../blocks/content/khan/khan.css");
+@import url("../blocks/content/khan/__author/khan__author.css");
+@import url("../blocks/content/khan/__author-author-subline/khan__author-author-subline.css");
+@import url("../blocks/content/khan/__book-container/khan__book-container.css");
+@import url("../blocks/content/khan/__author/khan__author.css");
+@import url("../blocks/content/khan/__buy-link/khan__buy-link.css");
+@import url("../blocks/content/khan/__book-pic/khan__book-pic.css");
+@import url("../blocks/content/khan/__container/khan__container.css");
+@import url("../blocks/content/khan/__quote/khan__quote.css");
+@import url("../blocks/content/khan/__quote-author/khan__quote-author.css");
+@import url("../blocks/content/khan/__title/khan__title.css");
 
 /*Стили для блока kaufman*/
 @import url("../blocks/content/kaufman/kaufman.css");
