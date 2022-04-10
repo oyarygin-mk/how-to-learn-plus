@@ -53,6 +53,9 @@
 
 /*Стили для блока feyman*/
 @import url("../blocks/content/feyman/feyman.css");
+@import url("../blocks/content/feyman/__title/feyman__title.css");
+@import url("../blocks/content/feyman/__subtitle/feyman__subtitle.css");
+@import url("../blocks/content/feyman/__link/feyman__link.css");
 
 /*Стили для блока khan*/
 @import url("../blocks/content/khan/khan.css");
@@ -69,6 +72,7 @@
 
 /*Стили для блока kaufman*/
 @import url("../blocks/content/kaufman/kaufman.css");
+@import url("../blocks/content/kaufman/__trigle/kaufman__trigle.css");
 @import url("../blocks/content/section/section-subtitle/section-subtitle.css");
 @import url("../blocks/content/section/section-title/section-title.css");
 @import url("../blocks/content/digits/table/table.css");
