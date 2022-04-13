@@ -1,6 +1,5 @@
 .header__main-illustration
 {
-  display: flex;
   position: absolute;
   background-size: cover;
   background-image: url("../../../images/header-image.png");
