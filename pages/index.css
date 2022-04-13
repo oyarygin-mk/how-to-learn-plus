@@ -98,12 +98,7 @@
 @import url("../blocks/content/resources/resources.css");
 @import url("../blocks/content/resources/__logo/resources__logo.css");
 @import url("../blocks/content/resources/__logo/resources__logo-zone.css");
-@import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
-@import url("../blocks/content/resources/__logo/_n1/resources__logo_n1.css");
-@import url("../blocks/content/resources/__logo/_polka/resources__logo_polka.css");
-@import url("../blocks/content/resources/__logo/_strelka/resources__logo_strelka.css");
-@import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
-@import url("../blocks/content/resources/__logo/_academy/resources__logo_academy.css");
+
 
 /*Стили для блока footer*/
 @import url("../blocks/footer/footer.css");

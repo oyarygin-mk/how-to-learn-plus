@@ -3,4 +3,6 @@
   width: 270px;
   height: 38px;
   background: center no-repeat;
+  display: flex;
+  justify-content: space-between;
 }
