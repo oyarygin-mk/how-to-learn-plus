@@ -2,12 +2,11 @@
 {
   position: absolute;
   width: 338px;
-  margin-bottom: 30px;
-  margin-left: 64px;
+  bottom: 30px;
+  margin: 64px 0 30px 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
   z-index: 1;
-  bottom: 0;
   left: 0;
 }
