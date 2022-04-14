@@ -11,7 +11,7 @@
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 @import url("../blocks/header/__square-pic/header__square-pic.css");
-@import url("../blocks/logo/_place-header/logo_place-header.css");
+@import url("../blocks/logo/_place_header/logo_place_header.css");
 @import url("../blocks/rotation/rotation.css");
 @import url("../blocks/logo/logo.css");
 
@@ -51,7 +51,7 @@
 @import url("../blocks/section/section-subtitle/section-subtitle.css");
 @import url("../blocks/section/section-title/section-title.css");
 @import url("../blocks/video/__iframes/video__iframes.css");
-@import url("../blocks/video/__iframes/_item/video__iframes_item.css");
+@import url("../blocks/video/__iframe/video__iframe.css");
 
 /*Стили для блока oakley*/
 @import url("../blocks/oakley/oakley.css");
@@ -111,7 +111,7 @@
 @import url("../blocks/footer/__column-link/footer__column-link.css");
 @import url("../blocks/footer/__list/footer__list-item.css");
 @import url("../blocks/footer/__social-icon/footer__social-icon.css");
-@import url("../blocks/logo/_place-header/logo_place-header.css");
+@import url("../blocks/logo/_place_header/logo_place_header.css");
 @import url("../blocks/footer/__coloumn-heading/footer__coloumn-heading.css");
 @import url("../blocks/footer/__coloumn-links/footer__column-links.css");
 @import url("../blocks/logo/logo.css");
