@@ -82,7 +82,7 @@
 
 /*Стили для блока kaufman*/
 @import url("../blocks/kaufman/kaufman.css");
-@import url("../blocks/kaufman/__trigle/kaufman__triangle.css");
+@import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
 @import url("../blocks/section/section-title/_theme/section-title_theme_dark.css");
 @import url("../blocks/section/section-subtitle/section-subtitle.css");
 @import url("../blocks/section/section-title/section-title.css");
@@ -99,17 +99,17 @@
 /*Стили для блока resources*/
 @import url("../blocks/section/section-subtitle/section-subtitle.css");
 @import url("../blocks/section/section-title/section-title.css");
-@import url("../blocks/content/resources/resources.css");
-@import url("../blocks/content/resources/__logo/resources__logo.css");
-@import url("../blocks/content/resources/__logo-zone/resources__logo-zone.css");
+@import url("../blocks/resources/resources.css");
+@import url("../blocks/resources/__logo/resources__logo.css");
+@import url("../blocks/resources/__logo-zone/resources__logo-zone.css");
 
 /*Стили для блока footer*/
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__author/footer__author.css");
 @import url("../blocks/footer/__coloumn/footer__coloumn.css");
 @import url("../blocks/footer/__coloumn-heading/footer__coloumn-heading.css");
-@import url("../blocks/footer/__coloumn/__content/footer__column_content_copyright.css");
-@import url("../blocks/footer/__coloumn/__content/footer__column_content_social.css");
+@import url("../blocks/footer/__coloumn/_content/footer__column_content_copyright.css");
+@import url("../blocks/footer/__coloumn/_content/footer__column_content_social.css");
 @import url("../blocks/footer/__coloumn-links/footer__column-links.css");
 @import url("../blocks/footer/__coloumns/footer__columns.css");
 @import url("../blocks/footer/__coloumns/_info/footer__coloumns_info.css");

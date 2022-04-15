@@ -3,10 +3,9 @@
   position: absolute;
   width: 338px;
   bottom: 30px;
-  margin: 0 0 30px 64px;
+  left: 64px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
   z-index: 1;
-  left: 0;
 }

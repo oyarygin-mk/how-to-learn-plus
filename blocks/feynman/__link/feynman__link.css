@@ -2,15 +2,15 @@
 {
   line-height: 51px;
   font-size: 36px;
-  color: #1f1f1f;
-  right: 0;
+  color: #2f80ed;
   text-align: center;
+  top: 50%;
+  right: 48px;
   position: absolute;
-  margin-right: 48px;
   text-decoration: none;
 }
 
-.feyman__link:hover
+.feynman__link:hover
 {
   opacity: 0.3;
   transition: linear;
