@@ -17,8 +17,8 @@
 
 /*Стили для блока description*/
 @import url("../blocks/description/description.css");
-@import url("../blocks/section/section-subtitle/section-subtitle.css");
-@import url("../blocks/section/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-title/section-title.css");
 @import url("../blocks/two-columns/__brief/two-columns__brief.css");
 @import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
@@ -27,8 +27,8 @@
 
 /*Стили для блока digits*/
 @import url("../blocks/digits/digits.css");
-@import url("../blocks/section/section-subtitle/section-subtitle.css");
-@import url("../blocks/section/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-title/section-title.css");
 @import url("../blocks/table/table.css");
 @import url("../blocks/table/__cell/table__cell.css");
 @import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
@@ -36,9 +36,9 @@
 @import url("../blocks/table/__text/table__text.css");
 
 /*Стили для блока techniques*/
-@import url("../blocks/section/section-subtitle/section-subtitle.css");
-@import url("../blocks/section/section-subtitle/_theme/section-subtitle_theme_dark.css");
-@import url("../blocks/section/section-title/_theme/section-title_theme_dark.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
+@import url("../blocks/section-title/_theme/section-title_theme_dark.css");
 @import url("../blocks/techniques/technics.css");
 @import url("../blocks/techniques/cards/cards.css");
 @import url("../blocks/techniques/cards/__description/cards__description.css");
@@ -48,8 +48,8 @@
 
 /*Стили для блока video*/
 @import url("../blocks/video/video.css");
-@import url("../blocks/section/section-subtitle/section-subtitle.css");
-@import url("../blocks/section/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-title/section-title.css");
 @import url("../blocks/video/__iframes/video__iframes.css");
 @import url("../blocks/video/__iframe/video__iframe.css");
 
@@ -83,9 +83,9 @@
 /*Стили для блока kaufman*/
 @import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
-@import url("../blocks/section/section-title/_theme/section-title_theme_dark.css");
-@import url("../blocks/section/section-subtitle/section-subtitle.css");
-@import url("../blocks/section/section-title/section-title.css");
+@import url("../blocks/section-title/_theme/section-title_theme_dark.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-title/section-title.css");
 @import url("../blocks/table/table.css");
 @import url("../blocks/table/__cell/table__cell.css");
 @import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
@@ -97,8 +97,8 @@
 @import url("../blocks/rotation/rotation.css");
 
 /*Стили для блока resources*/
-@import url("../blocks/section/section-subtitle/section-subtitle.css");
-@import url("../blocks/section/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-title/section-title.css");
 @import url("../blocks/resources/resources.css");
 @import url("../blocks/resources/__logo/resources__logo.css");
 @import url("../blocks/resources/__logo-zone/resources__logo-zone.css");

@@ -1,5 +1,7 @@
 .footer
 {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 24px;
   box-sizing: border-box;
   background-color: #1f1f1f;
