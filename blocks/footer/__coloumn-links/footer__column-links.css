@@ -1,7 +1,8 @@
 .footer__column-links
 {
-  padding: 0;
+  padding: 16px 0 16px 0;
   line-height: 18px;
   font-size: 18px;
   cursor: pointer;
+  margin: 0;
 }
