@@ -55,6 +55,11 @@
 
 /*Стили для блока oakley*/
 @import url("../blocks/oakley/oakley.css");
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/two-columns/__brief/two_columns__brief.css");
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/two-columns/__span-accent/two-colums__span-accent.css");
 
 /*Стили для блока feynman*/
 @import url("../blocks/feynman/feynman.css");
