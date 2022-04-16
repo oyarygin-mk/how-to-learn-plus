@@ -5,5 +5,5 @@
   height: 608px;
   background-position: 0 0;
   object-fit: cover;
-  object-position: 50% 50%;
+  height: auto;
 }

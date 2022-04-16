@@ -39,12 +39,12 @@
 @import url("../blocks/section-subtitle/section-subtitle.css");
 @import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
 @import url("../blocks/section-title/_theme/section-title_theme_dark.css");
-@import url("../blocks/techniques/technics.css");
-@import url("../blocks/techniques/cards/cards.css");
-@import url("../blocks/techniques/cards/__description/cards__description.css");
-@import url("../blocks/techniques/cards/__image/cards__image.css");
-@import url("../blocks/techniques/cards/__item/cards__item.css");
-@import url("../blocks/techniques/cards/__title/cards__title.css");
+@import url("../blocks/techniques/techniques.css");
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/cards/__description/cards__description.css");
+@import url("../blocks/cards/__image/cards__image.css");
+@import url("../blocks/cards/__item/cards__item.css");
+@import url("../blocks/cards/__title/cards__title.css");
 
 /*Стили для блока video*/
 @import url("../blocks/video/video.css");
