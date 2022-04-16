@@ -1,6 +1,7 @@
 .footer__list-item
 {
   display: block;
+  margin-bottom: 10px;
 }
 
 .footer__list-item:last-child
